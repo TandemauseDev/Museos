@@ -6,6 +6,7 @@ import Modelo from './pages/Modelo.tsx'
 import Tour from './pages/Tour.tsx'
 
 import './index.css'
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Header from './components/Header.tsx'
 

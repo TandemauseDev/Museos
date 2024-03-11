@@ -1,6 +1,3 @@
-
-
-
 import Banner from '../components/Banner'
 
 function App() {
@@ -11,8 +8,6 @@ function App() {
       
     </>
       
-      
-
   )
 }
 
