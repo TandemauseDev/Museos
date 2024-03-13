@@ -42,7 +42,7 @@ const Galeria = () => {
   return (
     <div>
       <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
-        <div className='text-center text-blue-600 decoration-wavy'> 
+        <div className='text-center text-blue-950 decoration-wavy'> 
           <h2 className='text-4xl py-4'>
             EXPOSICION ANATOMICA <br />
           </h2> 
