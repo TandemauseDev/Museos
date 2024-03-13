@@ -9,11 +9,10 @@ const Tour = () => {
           RECORRIDO VIRTUAL <br />
         </h1>
         <div className='relative my-6' >
-          <img src={recorrido} className='max-w-none max-h-none opacity-90' alt="" />
+          <img src={recorrido} className='max-w-full max-h-screen opacity-90' alt="" />
           <div className='absolute inset-0 flex items-center justify-center'>
             <button className='bg-white text-blue-950 py-2 px-4 rounded-full font-bold' type="button">COMENCEMOS</button>
           </div>
-          
         </div>
       </div>
     </div>
