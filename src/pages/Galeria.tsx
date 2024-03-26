@@ -5,7 +5,7 @@ import image1 from '../img/CEREBRO.png';
 import image2 from '../img/pierna.jpg';
 import image3 from '../img/pulmones.jpg';
 import image4 from '../img/CRANEO.jpg';
-import image5 from '../img/bloque diafragmatico.jpg';
+import image5 from '../img/BLOQUE DIAFRAGMATICO.jpg';
 
 const Galeria = () => {
   const slides = [
