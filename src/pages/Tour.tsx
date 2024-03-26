@@ -8,11 +8,15 @@ const Tour = () => {
     const items = [
       'Necesitamos que se encuentre comodo para la apreciacion de las piezas',
       'Para version movil encontrara un joistick para que su movimiento no se encuentre limitado',
-      'El recorrido constara de una entrada donde con su usuario podra apreciar de toda la inmersion del museo'
+      'Su conexion a internet es VITAL para que el funcionamiento sea optimo y eficaz ',
+      'Para computador la visualizacion de las piezas ( EXPANDIR, ROTAR, ALEJAR ) las puedes  ejecutar mas apropiadamente con el Mouse',
+      'ESTAS PIEZAS SON CAPTADAS DEL MUSEO DE ANATOMIA DE LA UNIVERSIDAD MILITAR, SU PROPOSITO ES INCENTIVAR Y QUITAR LA IDEA DE LOS CUERPOS DISECADOS'
     ];
 
+    const lastIndex = items.length - 1;
+
     const htmlContent = items
-      .map((item, index) => `<li>${index + 1}. ${item}</li>`)
+      .map((item, index) => `<li ${index === lastIndex ? 'class="bold-item"' : ''}>${index + 1}. ${item}</li>`)
       .join('');
 
     Swal.fire({

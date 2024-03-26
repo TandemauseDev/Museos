@@ -6,4 +6,9 @@
 }
 .my-title {
     color: #130c79; 
+}
+.bold-item {
+    font-weight: bold;
+    color: #ff0202;
   }
+  
